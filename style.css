@@ -84,32 +84,8 @@
   }
 
   @media only screen and (max-width: 697px) {
-    .phone-nav {
+   
     
-        top: 0;
-        position:fixed;
-        background-color: white;
-        width: 100%;
-        height: 45px;
-        display: flex;
-        align-items: center;
-    }
-    .list-for-phone {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .join-us-phone {
-        background-color: #9DC20A;
-        border-radius: 10%;
-        margin-right: 8px;
-        padding: 8px;
-    }
-
-    .join-us-href-2 {
-        color: white;
-    }
 
     .h3-phone {
         text-align: center;
@@ -147,9 +123,7 @@
         text-align: center;
     }
 
-    #background-image-phone {
-        margin-top: 45px;
-    }
+  
   }
 
   /*Tablet size @media*/
@@ -190,7 +164,79 @@
     }
 
 }
-/* END Tablet size*/
+/*END Tablet size*/
+
+/*Phone Nav*/
+
+@media only screen and (min-width: 698px) {
+    .phone-nav {
+      display: none;
+    }
+
+}
+
+@media only screen and (max-width: 697px) {
+  .foto-logo {
+    height: 26px;
+    width: 26px;
+  }
+
+
+  .camera-img  {
+      height: 26px;
+      width: 26px;
+    }
+
+    .two-people-img {
+      height: 26px;
+      width: 26px;
+    }
+
+    .join-us-phone {
+      background-color: #9DC20A;
+      width: 50px;  
+      padding: 5px;   
+      margin-left: 10px;
+      text-align: center;
+      border-radius: 10%;
+      margin-right: 30px;
+    }
+
+    .join-us-href-2 {
+      color: white
+    }
+
+    .phone-nav {
+      width: 100%;
+      height: 3rem;
+      display: flex;
+      justify-content: space-between;
+      position: fixed;
+      background-color: white;
+      margin-bottom: 30px;
+    }
+
+    #background-image-phone {
+      margin-top: 0px;
+    }
+
+    .list-for-phone{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  
+    }
+
+    header {
+      width: 100%;
+      padding: 0;
+      top: 0;
+    }
+
+}
+/*END of Phone Nav*/
 
 /*Nav*/
 
@@ -266,11 +312,13 @@ a {
 /*Section 2*/
 .background-image {
     margin-top: 85px;
-    background-image: url("./portfolioprojectone/luke-stackpoole-xs9ZT_ldwPI-unsplash.jpg");
+    background-image: url("./portfolioprojectone/jonathan-roger-LY1eyQMFeyo-unsplash.jpg");
     width: 100%;
-    height: 696px;
+    overflow: hidden;
     background-repeat: no-repeat;
     display: flex;
+    background-position: center;
+    background-size: cover;
 }
 
 .section-two-box {
@@ -282,6 +330,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .instant {
@@ -527,8 +576,22 @@ button {
     margin-left: 30px;
     margin-top: 80px;
     margin-bottom: 80px;
+    height: 3.5rem;
 }
 
+@media only screen and (max-width: 69 ) {
+
+}
+
+@media only screen and (max-width: 895px) {
+  .section-five-image {
+    margin: 80px auto 80px auto;
+  }
+
+  .section-five-hfour {
+    margin: 80px 15px 80px auto;
+  }
+}
 /*END Section 5*/
 
 /*Section 6*/
